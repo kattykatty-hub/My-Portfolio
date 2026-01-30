@@ -188,8 +188,7 @@
           };
 
           try {
-            const res = await fetch("http://localhost:8000/contact", {
-              // 🔁 Replace with Render URL in production
+          const res = await fetch("https://portfolio-backend-azff.onrender.com/contact", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify(payload),
